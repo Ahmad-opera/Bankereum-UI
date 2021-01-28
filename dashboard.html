@@ -98,59 +98,70 @@
       });
     </script>
     <main class="py-32">
-      <div class="flex w-full">
+      <div class="lg:flex justify-center text-center w-full">
         <div class="mr-auto px-4">
-          <h1 class="font-normal text-2xl ml-auto">Hi Ahmad!</h1>
+          <h1 class="font-normal lg:text-2xl ml-auto">Hi Ahmad!</h1>
         </div>
-        <div class="ml-auto px-6 py-2 bg-white lg:shadow-2xl rounded-full mr-6">
-          <h1 class="font-semibold text-lg mr-auto">
+        <div
+          class="lg:ml-auto w-max mx-auto px-6 py-2 bg-white lg:shadow-2xl rounded-full lg:mr-6"
+        >
+          <h1 class="font-semibold text-xs lg:text-lg mr-auto">
             Account ID: <span class="text-green-500">3ugdsf7364</span>
           </h1>
         </div>
       </div>
-      <div class="grid grid-cols-1 lg:grid-cols-2 divide-x pt-24">
-        <div class="w-full text-center">
-          <h1 class="font-semibold text-2xl uppercase">Investment</h1>
-          <p class="text-xs lg:px-10 mx-auto lg:w-3/5">
-            1% Daily Rate of Interest (ROI) Withdraw every second daily Referral
-            rewards 6% in your Main account Double your investment in 200 days
-            100 days to get back 100% investment <br />
-            Deposit period : 200 days
-          </p>
-          <p class="text-xs lg:px-10 pt-2">
-            Principal amount included in daily returns
-          </p>
-          <p class="text-xs lg:px-10 pt-2">More secure and more sustainable</p>
-          <p class="text-xs lg:px-10 mx-auto lg:w-3/5">
-            EARN 1% daily for 200 days Deposit period: 200 days Updates every
-            single second Withdraw every second daily Withdraw period: 200 days
-          </p>
-          <h1 class="font-semibold text-xl uppercase py-2">Make a Deposit</h1>
+      <div
+        class="grid grid-cols-1 lg:grid-cols-2 lg:divide-x pt-24 px-10 items-center"
+      >
+        <div class="w-full text-center lg:divide-y py-4">
+          <div class="py-4">
+            <h1 class="font-semibold text-2xl uppercase py-2">Investment</h1>
+            <p class="text-xs lg:px-10 mx-auto lg:w-3/5">
+              1% Daily Rate of Interest (ROI) Withdraw every second daily
+              Referral rewards 6% in your Main account Double your investment in
+              200 days 100 days to get back 100% investment <br />
+              Deposit period : 200 days
+            </p>
+            <p class="text-xs lg:px-10 pt-2">
+              Principal amount included in daily returns
+            </p>
+            <p class="text-xs lg:px-10 pt-2">
+              More secure and more sustainable
+            </p>
+            <p class="text-xs lg:px-10 mx-auto lg:w-3/5">
+              EARN 1% daily for 200 days Deposit period: 200 days Updates every
+              single second Withdraw every second daily Withdraw period: 200
+              days
+            </p>
+          </div>
           <div class="">
-            <i class="fab fa-btc px-2 text-yellow-700"></i>
-            <input
-              type="number"
-              min="0.0001"
-              value="0.0001"
-              class="border py-2 px-4 shadow-inner my-2"
-            />
-            <button class="px-6 py-2 bg-blue-400 text-white">Invest</button>
+            <h1 class="font-semibold text-xl uppercase py-2">Make a Deposit</h1>
             <div class="">
-              <h1 class="font-semibold text-xs uppercase py-1">
-                Minimum Deposit: 0.00100000 BTC
-              </h1>
-              <h1 class="font-semibold text-xs uppercase py-1">
-                Maximum Deposit: No Limit
-              </h1>
-              <h1 class="font-semibold text-xs uppercase py-1">
-                No transaction fees (othere than the network fee)
-              </h1>
+              <i class="fab fa-btc px-2 text-yellow-700"></i>
+              <input
+                type="number"
+                min="0.0001"
+                value="0.0001"
+                class="border py-2 px-4 shadow-inner my-2"
+              />
+              <button class="px-6 py-2 bg-blue-400 text-white">Invest</button>
+              <div style="font-size: 10px">
+                <h1 class="font-semibold uppercase py-1">
+                  Minimum Deposit: 0.00100000 BTC
+                </h1>
+                <h1 class="font-semibold uppercase py-1">
+                  Maximum Deposit: No Limit
+                </h1>
+                <h1 class="font-semibold uppercase py-1">
+                  No transaction fees (othere than the network fee)
+                </h1>
+              </div>
             </div>
           </div>
         </div>
-        <div class="w-full text-center">
-          <h1 class="font-semibold text-2xl uppercase">Daily Profit</h1>
-          <div class="grid grid-cols-1 lg:grid-cols-2">
+        <div class="w-full text-center pt-16 lg:pt-0 lg:divide-y">
+          <h1 class="font-semibold text-2xl uppercase py-2">Daily Profit</h1>
+          <div class="grid grid-cols-1 lg:grid-cols-2 py-4">
             <div class="">
               <h1 class="font-semibold text-sm uppercase pt-4">
                 Your Investment
@@ -204,19 +215,76 @@
                 class="border py-2 px-4 shadow-inner my-2"
               />
               <button class="px-6 py-2 bg-blue-400 text-white">Widthraw</button>
-              <div class="">
-                <h1 class="font-semibold text-xs uppercase py-1">
+              <div style="font-size: 10px">
+                <h1 class="font-semibold uppercase py-1">
                   Minimum Deposit: 0.00100000 BTC
                 </h1>
-                <h1 class="font-semibold text-xs uppercase py-1">
+                <h1 class="font-semibold uppercase py-1">
                   Maximum Deposit: No Limit
                 </h1>
-                <h1 class="font-semibold text-xs uppercase py-1">
+                <h1 class="font-semibold uppercase py-1">
                   No transaction fees (othere than the network fee)
                 </h1>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="pt-10">
+        <h1 class="text-2xl text-center">REFERRAL STATUS</h1>
+        <div class="text-center mx-auto">
+          <p>
+            Tier1 <span class="text-blue-700">(3%)</span> Tier2
+            <span class="text-blue-700">(2%)</span> Tier3
+            <span class="text-blue-700">(1%)</span>
+          </p>
+        </div>
+        <p class="text-xs text-center py-2">
+          Referral commission will be credited instantly to your Main Account,
+          every time your referral makes investment
+        </p>
+      </div>
+      <h1 class="font-semibold text-2xl uppercase text-center pt-3">
+        Your Referral Link
+      </h1>
+      <div class="flex rounded-full bg-gray-200 w-max mx-auto">
+        <input
+          type="text"
+          value="https://bankereum.xyz/registration?referral=VSBUBNHRMD-USER"
+          class="px-4 py-3 bg-transparent lg:w-96 focus:outline-none"
+        />
+        <button
+          class="bg-gray-400 font-semibold px-4 m-1 focus:outline-none rounded-full"
+        >
+          Copy
+        </button>
+      </div>
+      <h1 class="text-sm font-semibold text-center py-4">
+        Your money will be invested in various business around the globe, so
+        that you can get regular returns for your investments
+      </h1>
+      <div
+        class="grid grid-cols-2 lg:grid-cols-5 gap-6 px-10 text-center pt-6 items-center"
+      >
+        <div class="px-4 py-6 shadow-2xl rounded-3xl">
+          <h1 class="font-semibold text-sm">Your total deposits</h1>
+          <h4 class="text-sm">$3,315</h4>
+        </div>
+        <div class="px-4 py-6 shadow-2xl rounded-3xl">
+          <h1 class="font-semibold text-sm">Your total bonus</h1>
+          <h4 class="text-sm">$35</h4>
+        </div>
+        <div class="px-4 py-6 shadow-2xl rounded-3xl">
+          <h1 class="font-semibold text-sm">Your total Earnings</h1>
+          <h4 class="text-sm">$405</h4>
+        </div>
+        <div class="px-4 py-6 shadow-2xl rounded-3xl">
+          <h1 class="font-semibold text-sm">Your total withdrawals</h1>
+          <h4 class="text-sm">$65</h4>
+        </div>
+        <div class="px-4 py-6 shadow-2xl rounded-3xl">
+          <h1 class="font-semibold text-sm">Total referral earnings</h1>
+          <h4 class="text-sm">$235</h4>
         </div>
       </div>
     </main>
