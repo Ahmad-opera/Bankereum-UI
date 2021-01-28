@@ -97,186 +97,122 @@
         $("nav").toggleClass("nav-collapsed");
       });
     </script>
-    <header class="bg-lion py-48 lg:p-48 items-center text-center">
-      <h1 class="text-4xl lg:text-6xl text-yellow-200 font-semibold uppercase">
-        bankereum
-      </h1>
-      <div class="pt-4 text-white">
-        <h2 class="text-xl lg:text-3xl font-semibold uppercase">
-          the world's best
-        </h2>
-        <h3 class="font-semibold text-xs lg:text-sm uppercase">
-          100% decentralized crypto bank
-        </h3>
+    <main class="pt-32">
+      <div class="px-10 py-8 shadow-xl bg-white">
+        <h1 class="font-semibold text-xl py-4">Create new account</h1>
+        <form class="px-6">
+          <div class="grid grid-cols-2 lg:grid-cols-3 gap-10">
+            <div class="w-full">
+              <input
+                type="text"
+                placeholder="Username"
+                class="px-6 py-3 w-full focus:outline-none hover:bg-gray-50 focus:shadow-inner border"
+              />
+              <div class="flex">
+                <i class="fa fa-exclamation-alt"></i>
+                <p style="font-size: 10px">
+                  Please use only English letters, digits. Username's length
+                  must be between 4 to 20
+                </p>
+              </div>
+            </div>
+            <div class="">
+              <input
+                type="text"
+                placeholder="Email Address"
+                class="px-6 py-3 focus:outline-none w-full hover:bg-gray-50 focus:shadow-inner border"
+              />
+            </div>
+            <div class="">
+              <input
+                type="text"
+                placeholder="First Name"
+                class="px-6 py-3 focus:outline-none w-full hover:bg-gray-50 focus:shadow-inner border"
+              />
+            </div>
+            <div class="">
+              <input
+                type="text"
+                placeholder="Last Name"
+                class="px-6 py-3 focus:outline-none w-full hover:bg-gray-50 focus:shadow-inner border"
+              />
+            </div>
+            <div class="">
+              <select
+                name="Account type"
+                id=""
+                class="px-6 py-3 border focus:outline-none w-full"
+              >
+                <option value="select">- Select Account -</option>
+                <option value="personal">Personal</option>
+                <option value="cooperate">Cooperate</option>
+              </select>
+            </div>
+            <div class="">
+              <select
+                name="Account type"
+                id=""
+                class="px-6 py-3 border focus:outline-none w-full"
+              >
+                <option value="select">- Select Country -</option>
+                <option value="personal">Personal</option>
+                <option value="cooperate">Cooperate</option>
+              </select>
+            </div>
+            <div class="">
+              <input
+                type="text"
+                placeholder="Password"
+                class="px-6 py-3 focus:outline-none w-full hover:bg-gray-50 focus:shadow-inner border"
+              />
+            </div>
+            <div class="">
+              <input
+                type="text"
+                placeholder="Confirm Password"
+                class="px-6 py-3 focus:outline-none w-full hover:bg-gray-50 focus:shadow-inner border"
+              />
+            </div>
+          </div>
+          <div class="py-10">
+            <div class="flex">
+              <input type="checkbox" name="agree" />
+              <p class="text-xs pl-2">
+                I would like to get updates and communication from Bankereum
+              </p>
+            </div>
+            <div class="flex py-2">
+              <input type="checkbox" name="agree" />
+              <p class="text-xs pl-2">
+                I am at least 18 years of age, and accept all the rules &
+                agreements from time to time.
+              </p>
+            </div>
+            <div class="">
+              <p class="text-xs text-gray-600">
+                This site is protected by reCAPTCHA and the Google
+                <span class="text-blue-500">Privacy Policy</span> and
+                <span class="text-blue-500">Terms of Service</span> apply.
+              </p>
+            </div>
+          </div>
+          <button class="px-6 py-3 bg-blue-500 text-white">
+            Create New Account
+          </button>
+        </form>
       </div>
-      <div
-        class="pt-6 px-10 lg:px-0 font-semibold text-white grid grid-cols-1 lg:grid-cols-3 gap-3"
-      >
-        <button
-          class="transition duration-300 px-8 py-4 mx-2 focus:outline-none text-sm uppercase font-semibold hover:bg-blue-600 bg-blue-500 rounded-full"
-        >
-          Registration
-        </button>
-        <button
-          class="transition duration-300 px-8 py-4 mx-2 focus:outline-none text-sm uppercase text-black font-semibold hover:bg-yellow-300 bg-yellow-200 rounded-full"
-        >
-          View Account
-        </button>
-        <button
-          class="transition duration-300 px-8 py-4 mx-2 focus:outline-none text-sm uppercase font-semibold hover:bg-blue-600 bg-blue-500 rounded-full"
-        >
-          Log in
-        </button>
-      </div>
-    </header>
-    <main class="lg:p-10">
-      <div
-        class="px-6 py-8 shadow-2xl grid grid-cols-1 lg:grid-cols-3 gap-8 pb-20"
-      >
-        <div
-          class="mx-auto divide-y shadow-2xl px-8 py-8 rounded-3xl hover:text-gray-600"
-        >
-          <div class="flex items-center py-3">
-            <div
-              class="w-12 h-12 items-center text-center rounded-full bg-blue-50 shadow-inner"
-            >
-              <i class="fa fa-lg fa-dollar-sign text-primary pt-4"></i>
-            </div>
-            <h1 class="ml-4 font-semibold text-lg py-1 uppercase font-sans">
-              Benefits
-            </h1>
-          </div>
-          <p class="text-xs pt-4">
-            A new secure and integrated access point to the crypto world is now
-            possible. Bankereum closes the gap between the digital asset world
-            and traditional banks by providing new standards in safety,
-            performance and transparency.
-          </p>
-        </div>
-        <div
-          class="mx-auto divide-y shadow-2xl px-8 py-8 rounded-3xl hover:text-gray-600"
-        >
-          <div class="flex items-center py-3">
-            <div
-              class="w-12 h-12 items-center text-center rounded-full bg-blue-50 shadow-inner"
-            >
-              <i class="fa fa-lg fa-lock text-primary pt-4"></i>
-            </div>
-            <h1 class="ml-4 font-semibold text-lg py-1 uppercase font-sans">
-              Safety
-            </h1>
-          </div>
-          <p class="text-xs pt-4">
-            Be assured that your assets are managed and stored in the most
-            protected and trusted environment. Our cyber and physical security
-            experts are leveraging new technologies and work with best-in-class
-            service partners to deliver the market's most secure future crypto
-            experience.
-          </p>
-        </div>
-        <div
-          class="mx-auto divide-y shadow-2xl px-8 py-8 rounded-3xl hover:text-gray-600"
-        >
-          <div class="flex items-center py-3">
-            <div
-              class="w-12 h-12 items-center text-center rounded-full bg-blue-50 shadow-inner"
-            >
-              <i class="fa fa-lg fa-donate text-primary pt-4"></i>
-            </div>
-            <h1 class="ml-4 font-semibold text-lg py-1 uppercase font-sans">
-              Banking
-            </h1>
-          </div>
-          <p class="text-xs pt-4">
-            Bankereum is a bank for everyone. Not everyone has access to
-            financial services. But all you need to access Ethereum and its
-            lending, borrowing and savings products is an internet connection.
-          </p>
-        </div>
-        <div
-          class="mx-auto divide-y shadow-2xl px-8 py-8 rounded-3xl hover:text-gray-600"
-        >
-          <div class="flex items-center py-3">
-            <div
-              class="w-12 h-12 items-center text-center rounded-full bg-blue-50 shadow-inner"
-            >
-              <i class="fa fa-lg fa-handshake text-primary pt-4"></i>
-            </div>
-            <h1 class="ml-4 font-semibold text-lg py-1 uppercase font-sans">
-              Community
-            </h1>
-          </div>
-          <p class="text-xs pt-4">
-            Our community includes people from all backgrounds, including
-            artists, crypto-anarchists, multi-national companies, directors,
-            business man, etc., and now you. Find out how you can get involved
-            today.
-          </p>
-        </div>
-        <div
-          class="mx-auto divide-y shadow-2xl px-8 py-8 rounded-3xl hover:text-gray-600"
-        >
-          <div class="flex items-center py-3">
-            <div
-              class="w-12 h-12 items-center text-center rounded-full bg-blue-50 shadow-inner"
-            >
-              <i class="fab fa-lg fa-ethereum text-primary pt-4"></i>
-            </div>
-            <h1 class="ml-4 font-semibold text-lg py-1 uppercase font-sans">
-              ETH Wallets
-            </h1>
-          </div>
-          <p class="text-xs pt-4">
-            Ethereum wallets are applications that let you interact with your
-            Ethereum account. Think of it like an internet banking app – without
-            the bank. Your wallet lets you read your balance, send transactions
-            and connect to applications.
-          </p>
-        </div>
-        <div
-          class="mx-auto divide-y shadow-2xl px-8 py-8 rounded-3xl hover:text-gray-600"
-        >
-          <div class="flex items-center py-3">
-            <div
-              class="w-12 h-12 items-center text-center rounded-full bg-blue-50 shadow-inner"
-            >
-              <i class="fa fa-lg fa-coins text-primary pt-4"></i>
-            </div>
-            <h1 class="ml-4 font-semibold text-lg py-1 uppercase font-sans">
-              ETH 2.0
-            </h1>
-          </div>
-          <p class="text-xs pt-4">
-            Eth2 refers to a set of interconnected upgrades that will make
-            Ethereum more scalable, more secure, and more sustainable. These
-            upgrades are being built by multiple teams from across the Ethereum
-            ecosystem.
-          </p>
-        </div>
-      </div>
-      <iframe
-        src="https://widget.coinlib.io/widget?type=full_v2&amp;theme=light&amp;cnt=6&amp;pref_coin_id=1505&amp;graph=yes"
-        width="100%"
-        height="409px"
-        scrolling="auto"
-        marginwidth="0"
-        marginheight="0"
-        frameborder="0"
-        border="0"
-        class="shadow-xl"
-      ></iframe>
-      <iframe
-        src="https://widget.coinlib.io/widget?type=horizontal_v2&amp;theme=light&amp;pref_coin_id=1505&amp;invert_hover="
-        width="100%"
-        height="36px"
-        scrolling="auto"
-        marginwidth="0"
-        marginheight="0"
-        frameborder="0"
-        border="0"
-        style="border: 0; margin: 0; padding: 0"
-      ></iframe>
     </main>
+    <iframe
+      src="https://widget.coinlib.io/widget?type=horizontal_v2&amp;theme=light&amp;pref_coin_id=1505&amp;invert_hover="
+      width="100%"
+      height="36px"
+      scrolling="auto"
+      marginwidth="0"
+      marginheight="0"
+      frameborder="0"
+      border="0"
+      style="border: 0; margin: 0; padding: 0"
+    ></iframe>
     <footer class="px-10 py-6 bg-gray-800 text-white">
       <div class="lg:flex">
         <div class="px-8">
